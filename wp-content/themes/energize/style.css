@@ -1,4 +1,78 @@
-p
-{
-  color: red;
-}
+/* 
+// Init values
+*/
+html {
+  font-size: 62.5%; }
+
+/* 
+// Variables declaration 
+*/
+/* 
+// Start desktop version 
+*/
+.body {
+  margin: 0;
+  padding: 0; }
+  .body .header .container--menu .nav--top {
+    background-color: #F5F6F8; }
+    .body .header .container--menu .nav--top .content {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .body .header .container--menu .nav--top .content .container--link {
+        display: flex;
+        justify-content: space-between; }
+        .body .header .container--menu .nav--top .content .container--link .link {
+          text-decoration: none;
+          margin-right: 36px; }
+          .body .header .container--menu .nav--top .content .container--link .link .text {
+            font-size: 1.4rem;
+            color: #999; }
+      .body .header .container--menu .nav--top .content .container--sociale .link {
+        text-decoration: none; }
+        .body .header .container--menu .nav--top .content .container--sociale .link .logo {
+          height: 16px;
+          width: 16px;
+          margin-left: 8px; }
+  .body .header .container--menu .nav--mid .link--logo .logo {
+    display: block;
+    width: 300px;
+    margin: auto; }
+  .body .header .container--menu .nav--mid .link--user {
+    text-decoration: none; }
+  .body .header .container--menu .nav--bot {
+    border-top: #E5E5E5 solid 1px;
+    border-bottom: #E5E5E5 solid 1px; }
+    .body .header .container--menu .nav--bot .content {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      .body .header .container--menu .nav--bot .content .container--link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .body .header .container--menu .nav--bot .content .container--link .link {
+          text-decoration: none;
+          margin-right: 36px; }
+          .body .header .container--menu .nav--bot .content .container--link .link .text {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            color: #29303B; }
+          .body .header .container--menu .nav--bot .content .container--link .link .logo {
+            width: 20px;
+            height: 20px; }
+      .body .header .container--menu .nav--bot .content .container--shearch {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .body .header .container--menu .nav--bot .content .container--shearch .logo {
+          width: 20px;
+          height: 20px; }
+  .body .main--home {
+    width: 90%;
+    margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
