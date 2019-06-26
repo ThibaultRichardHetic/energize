@@ -4,29 +4,6 @@
 
   <div id="content" class="content">
     <div class="container--main">
-      <div class="container--sondage">
-        <h3 class="sondage__title">
-          Sondage du jour
-        </h3>
-        <p class="sondage__ask">
-          Utilisez-vous quotidiennement un système de climatisation, au travail comme à votre domicile ?
-        </p>
-        <div class="answer">
-          <div class="choice">
-            <div class="button--yes">
-              <img class="button__icon" src="<?php echo(get_stylesheet_directory_uri());?>/images/check-circle.svg" alt="">
-              <p class="button__text">Oui</p>
-            </div>
-            <div class="button--no">
-              <img class="button__icon" src="<?php echo(get_stylesheet_directory_uri());?>/images/x-circle.svg" alt="">
-              <p class="button__text">Non</p>
-            </div>
-          </div>
-          <div class="button--validate">
-            <p class="button__text">Répondre</p>
-          </div>
-        </div>
-      </div>
       <div class="article--last">
         <h4 class="title--block">Dernière article</h4>
         <div class="article">
@@ -139,7 +116,69 @@
             </div>
       </div>
     </div>
-
+    <div class="container--sidebar">
+      <div class="sondage">
+        <h4 class="title">Sondage</h4>
+        <p class="description">
+          Répondez à notre sondage et aidez nous dans nos recherches.
+        </p>
+        <form class="form" action="" method="post">
+          <p class="ask">Je suis:</p>
+          <div class="options">
+            <div class="option">
+              <input class="input" type="checkbox" name="owner">
+              <label class="label" for="owner">Proprétaire</label>
+            </div>
+            <div class="option">
+              <input class="input" type="checkbox" name="owner">
+              <label class="label" for="owner">Locataire</label>
+            </div>
+            <div class="option">
+              <input class="input" type="checkbox" name="free">
+              <label class="label" for="free">Logé à titre gratuit</label>
+            </div>
+          </div>
+        </form>
+        <div class="button">
+          <p class="text">Répondre</p>
+        </div>
+      </div>
+      <div class="follow">
+        <h4 class="title">Suivez-nous</h4>
+        <p class="description">
+          Découvrez nos aventures et des informations inédites.
+        </p>
+        <div class="icons">
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/facebook-color.svg" alt="">
+          </a>
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/twitter-color.svg" alt="">
+          </a>
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/instagram-color.svg" alt="">
+          </a>
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/snapchat-color.svg" alt="">
+          </a>
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/pinterest-color.svg" alt="">
+          </a>
+          <a class="link" href="">
+            <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/youtube-color.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="newsletter">
+        <h4 class="title">Newsletter</h4>
+        <p class="description">
+          Inscris toi à notre newletter et sois le premier à lire nos articles.
+        </p>
+        <form class="form" action="">
+          <input class="input" type="text" placeholder="Votre adresse mail">
+        </form>
+      </div>
+    </div>
   </div> <!-- /content -->
 
 </main>

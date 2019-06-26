@@ -44,30 +44,58 @@ html
     {
       .nav--top
       {
-        .container--logo
+        background-color: $color_grey_light;
+        .content
         {
-          width: 300px;
+          width: 80%;
           margin: auto;
-          .logo__img
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .container--link
           {
-            width: 300px;
-          }
-        }
-        .container--social
-        {
-          position: absolute;
-          right: 5%;
-          top: 8%;
-          .link
-          {
-            text-decoration: none;
-            .logo
+            display: flex;
+            justify-content: space-between;
+            .link
             {
-              width: 16px;
-              height: 16px;
-              margin-left: 8px;
+              text-decoration: none;
+              margin-right: 36px;
+              .text
+              {
+                font-size: $textsize_small;
+                color: $color_grey;
+              }
             }
           }
+          .container--sociale
+          {
+            .link
+            {
+              text-decoration: none;
+              .logo
+              {
+                height: 16px;
+                width: 16px;
+                margin-left: 8px;
+              }
+            }
+          }
+        }
+      }
+      .nav--mid
+      {
+        .link--logo
+        {
+          .logo
+          {
+            display: block;
+            width: 300px;
+            margin: auto;
+          }
+        }
+        .link--user
+        {
+          text-decoration: none;
         }
       }
       .nav--bot
@@ -125,79 +153,12 @@ html
       width: 90%;
       background-color: $color_white;
       margin: auto;
+      display: flex;
+      justify-content: space-around;
       .container--main
       {
         overflow: hidden;
-        width: 90%;
-        margin: auto;
-        .container--sondage
-        {
-          .sondage__title
-          {
-            font-size: $textsize_regular;
-          }
-          .sondage__ask
-          {
-            font-size: $textsize_medium;
-            margin-bottom: 36px;
-          }
-          .answer
-          {
-            .choice
-            {
-              width: 30%;
-              margin: auto;
-              display: flex;
-              justify-content: space-between;
-              .button--yes
-              {
-                width: 164px;
-                height: 40px;
-                background-color: rgba(254, 211, 48, .20);
-                border: solid 1px $color_yellow;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                .button__text
-                {
-                  font-size: $textsize_regular;
-                }
-              }
-              .button--no
-              {
-                width: 164px;
-                height: 40px;
-                background-color: $color_grey_light;
-                border: solid 1px $color_grey_dark;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                .button__text
-                {
-                  font-size: $textsize_regular;
-                }
-              }
-            }
-            .button--validate
-            {
-              width: 30%;
-              height: 40px;
-              background-color: $color_yellow;
-              margin: auto;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
-              margin-top: 36px;
-              .button__text
-              {
-                margin: 0%;
-                font-size: $textsize_regular;
-              }
-            }
-          }
-
-        }
+        width: 60%;
         .article--last
         {
           border-bottom: $color_grey_dark 1px solid;
@@ -311,6 +272,117 @@ html
             {
               margin: 0%;
               font-size: $textsize_regular;
+            }
+          }
+        }
+      }
+      .container--sidebar
+      {
+        width: 30%;
+        height: 40px;
+        .sondage
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .form
+          {
+            .ask
+            {
+              margin-top: 0;
+              font-size: $textsize_regular;
+              float: left;
+            }
+            .options
+            {
+              margin-bottom: 24px;
+              .option
+              {
+                .input
+                {
+                  border-radius: 100%;
+                }
+                .label
+                {
+                  font-size: $textsize_medium;
+                }
+              }
+            }
+          }
+          .button
+          {
+            width: 80%;
+            height: 40px;
+            background-color: $color_yellow;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+            .text
+            {
+              margin: 0%;
+              font-size: $textsize_regular;
+            }
+          }
+        }
+        .follow
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .icons
+          {
+            display: flex;
+            justify-content: space-between;
+            .logo
+            {
+              width: 30px;
+            }
+          }
+        }
+        .newsletter
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .form
+          {
+            .input
+            {
+              display: block;
+              width: 100%;
+              background: none;
+              font-size: $textsize_medium;
+              border: none;
+              border-bottom: solid 1px $color_grey_dark;
             }
           }
         }
