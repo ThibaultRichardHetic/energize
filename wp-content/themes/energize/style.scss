@@ -1,12 +1,3 @@
-/* 
-// Init values
-*/
-
-html
-{
-  font-size: 62.5%;
-}
-
 
 /* 
 // Variables declaration 
@@ -27,6 +18,17 @@ $textsize_small: 1.4rem;
 $textsize_medium: 1.8rem;
 $textsize_regular: 2.2rem;
 $textsize_big: 3.0rem;
+
+/* 
+// Init values
+*/
+
+html
+{
+  font-size: 62.5%;
+  font-family: Roboto;
+  color: $color_grey_dark;
+}
 
 /* 
 // Start desktop version 
@@ -222,6 +224,57 @@ $textsize_big: 3.0rem;
             }
           }
         }
+        .article--all
+        {
+          margin-top: 66px;
+          .double
+          {
+            margin-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            .article
+            {
+              width: 45%;
+              .article__illu
+              {
+                height: 200px;
+                width: 100%;
+                background-color: $color_grey_medium;
+              }
+              .article__content
+              {
+                .title
+                {
+                  margin: 0%;
+                  font-size: 26px;
+                }
+                .description
+                {
+                  font-size: $textsize_medium;
+                }
+              }
+            }
+          }
+        }
+        .show--more
+        {
+          .button
+          {
+            width: 40%;
+            height: 40px;
+            background-color: $color_yellow;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+            .text
+            {
+              margin: 0%;
+              font-size: $textsize_regular;
+            }
+          }
+        }
       }
       .container--sidebar
       {
@@ -334,6 +387,25 @@ $textsize_big: 3.0rem;
           }
         }
       }
+    }
+  }
+  .footer
+  {
+    margin-top: 86px;
+    margin-bottom: 0;
+    color: $color_white;
+    background-color: $color_grey_dark;
+    font-size: $textsize_medium;
+    .menu
+    {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin: auto;
+    }
+    .cr
+    {
+      margin-bottom: 0;
     }
   }
 }

@@ -37,17 +37,83 @@
         </div>
       </div>
       <div class="article--all">
-        <div class="article">
-          <div class="article__illu"></div>
-          <div class="article__content">
-            <h3 class="title">
-              Que représente l’energie photovoltaïque en France ?
-            </h3>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+        <div class="double">
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
           </div>
         </div>
+        <div class="double">
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="double">
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+            <div class="show--more">
+              <div class="button">
+                <p class="text">Afficher plus</p>
+              </div>
+            </div>
       </div>
     </div>
     <div class="container--sidebar">

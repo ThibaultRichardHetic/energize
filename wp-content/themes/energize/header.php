@@ -21,7 +21,7 @@
               <div class="content">
                 <div class="container--link">
                   <a class="link" href="#">
-                    <p class="text" >Notre Demarche</p>
+                    <p class="text" >Notre Démarche</p>
                   </a>
                   <a class="link" href="#">
                     <p class="text">Conseils</p>
