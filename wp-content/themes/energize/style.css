@@ -46,7 +46,7 @@ html {
     border-top: #E5E5E5 solid 1px;
     border-bottom: #E5E5E5 solid 1px; }
     .body .header .container--menu .nav--bot .content {
-      width: 80%;
+      width: 90%;
       margin: auto;
       display: flex;
       justify-content: space-between; }
@@ -72,7 +72,114 @@ html {
           width: 20px;
           height: 20px; }
   .body .main--home {
-    width: 90%;
-    margin: auto; }
+    background-color: #F5F6F8; }
+    .body .main--home .content {
+      width: 90%;
+      background-color: #fff;
+      margin: auto;
+      display: flex;
+      justify-content: space-around; }
+      .body .main--home .content .container--main {
+        overflow: hidden;
+        width: 60%; }
+        .body .main--home .content .container--main .article--last {
+          border-bottom: #29303B 1px solid; }
+          .body .main--home .content .container--main .article--last .title--block {
+            font-size: 3rem; }
+          .body .main--home .content .container--main .article--last .article {
+            display: flex;
+            justify-content: space-between; }
+            .body .main--home .content .container--main .article--last .article .article__link .preview {
+              width: 355px; }
+            .body .main--home .content .container--main .article--last .article .content--text .article__title {
+              margin: 0%;
+              font-size: 3rem; }
+            .body .main--home .content .container--main .article--last .article .content--text .article__description {
+              font-size: 1.8rem;
+              color: #999; }
+            .body .main--home .content .container--main .article--last .article .content--text .article__network {
+              display: flex;
+              justify-content: space-between; }
+              .body .main--home .content .container--main .article--last .article .content--text .article__network .hastag {
+                display: flex;
+                justify-content: space-between; }
+                .body .main--home .content .container--main .article--last .article .content--text .article__network .hastag .text {
+                  font-size: 1.8rem;
+                  color: #29303B; }
+              .body .main--home .content .container--main .article--last .article .content--text .article__network .popularity {
+                display: flex;
+                justify-content: space-between; }
+                .body .main--home .content .container--main .article--last .article .content--text .article__network .popularity .comment {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center; }
+                .body .main--home .content .container--main .article--last .article .content--text .article__network .popularity .like {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center; }
+      .body .main--home .content .container--sidebar {
+        width: 30%;
+        height: 40px; }
+        .body .main--home .content .container--sidebar .sondage {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: #F5F6F8; }
+          .body .main--home .content .container--sidebar .sondage .title {
+            margin: 0;
+            font-size: 3rem; }
+          .body .main--home .content .container--sidebar .sondage .description {
+            font-size: 1.8rem; }
+          .body .main--home .content .container--sidebar .sondage .form .ask {
+            margin-top: 0;
+            font-size: 2.2rem;
+            float: left; }
+          .body .main--home .content .container--sidebar .sondage .form .options {
+            margin-bottom: 24px; }
+            .body .main--home .content .container--sidebar .sondage .form .options .option .input {
+              border-radius: 100%; }
+            .body .main--home .content .container--sidebar .sondage .form .options .option .label {
+              font-size: 1.8rem; }
+          .body .main--home .content .container--sidebar .sondage .button {
+            width: 80%;
+            height: 40px;
+            background-color: #FED330;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); }
+            .body .main--home .content .container--sidebar .sondage .button .text {
+              margin: 0%;
+              font-size: 2.2rem; }
+        .body .main--home .content .container--sidebar .follow {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: #F5F6F8; }
+          .body .main--home .content .container--sidebar .follow .title {
+            margin: 0;
+            font-size: 3rem; }
+          .body .main--home .content .container--sidebar .follow .description {
+            font-size: 1.8rem; }
+          .body .main--home .content .container--sidebar .follow .icons {
+            display: flex;
+            justify-content: space-between; }
+            .body .main--home .content .container--sidebar .follow .icons .logo {
+              width: 30px; }
+        .body .main--home .content .container--sidebar .newsletter {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: #F5F6F8; }
+          .body .main--home .content .container--sidebar .newsletter .title {
+            margin: 0;
+            font-size: 3rem; }
+          .body .main--home .content .container--sidebar .newsletter .description {
+            font-size: 1.8rem; }
+          .body .main--home .content .container--sidebar .newsletter .form .input {
+            display: block;
+            width: 100%;
+            background: none;
+            font-size: 1.8rem;
+            border: none;
+            border-bottom: solid 1px #29303B; }
 
 /*# sourceMappingURL=style.css.map */

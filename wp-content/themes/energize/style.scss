@@ -19,6 +19,7 @@ $color_grey_light: #F5F6F8;
 $color_grey_medium: #E5E5E5;
 $color_grey: #999;
 $color_grey_dark: #29303B;
+$color_yellow: #FED330;
 
 // text size 
 
@@ -101,7 +102,7 @@ $textsize_big: 3.0rem;
         border-bottom: $color_grey_medium solid 1px;
         .content
         {
-          width: 80%;
+          width: 90%;
           margin: auto;
           display: flex;
           justify-content: space-between;
@@ -144,20 +145,194 @@ $textsize_big: 3.0rem;
   }
   .main--home
   {
-    width: 90%;
-    margin: auto;
+    background-color: $color_grey_light;
     .content
     {
+      width: 90%;
+      background-color: $color_white;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
       .container--main
       {
+        overflow: hidden;
+        width: 60%;
         .article--last
         {
-  
+          border-bottom: $color_grey_dark 1px solid;
+          .title--block
+          {
+            font-size: $textsize_big;
+          }
+          .article
+          {
+            display: flex;
+            justify-content: space-between;
+            .article__link
+            {
+              .preview
+              {
+                width: 355px;
+              }
+            }
+            .content--text
+            {
+              .article__title
+              {
+                margin: 0%;
+                font-size: $textsize_big;
+              }
+              .article__description
+              {
+                font-size: $textsize_medium;
+                color: $color_grey;
+              }
+              .article__network
+              {
+                display: flex;
+                justify-content: space-between;
+                .hastag
+                {
+                  display: flex;
+                  justify-content: space-between;
+                  .text
+                  {
+                    font-size: $textsize_medium;
+                    color: $color_grey_dark;
+                  }
+                }
+                .popularity
+                {
+                  display: flex;
+                  justify-content: space-between;
+                  .comment
+                  {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+                  .like
+                  {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+                }
+              }
+            }
+          }
         }
       }
       .container--sidebar
       {
-        
+        width: 30%;
+        height: 40px;
+        .sondage
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .form
+          {
+            .ask
+            {
+              margin-top: 0;
+              font-size: $textsize_regular;
+              float: left;
+            }
+            .options
+            {
+              margin-bottom: 24px;
+              .option
+              {
+                .input
+                {
+                  border-radius: 100%;
+                }
+                .label
+                {
+                  font-size: $textsize_medium;
+                }
+              }
+            }
+          }
+          .button
+          {
+            width: 80%;
+            height: 40px;
+            background-color: $color_yellow;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+            .text
+            {
+              margin: 0%;
+              font-size: $textsize_regular;
+            }
+          }
+        }
+        .follow
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .icons
+          {
+            display: flex;
+            justify-content: space-between;
+            .logo
+            {
+              width: 30px;
+            }
+          }
+        }
+        .newsletter
+        {
+          margin-top: 36px;
+          padding: 16px;
+          background-color: $color_grey_light;
+          .title
+          {
+            margin: 0;
+            font-size: $textsize_big;
+          }
+          .description
+          {
+            font-size: $textsize_medium;
+          }
+          .form
+          {
+            .input
+            {
+              display: block;
+              width: 100%;
+              background: none;
+              font-size: $textsize_medium;
+              border: none;
+              border-bottom: solid 1px $color_grey_dark;
+            }
+          }
+        }
       }
     }
   }
