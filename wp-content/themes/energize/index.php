@@ -28,11 +28,12 @@
         </div>
       </div>
       <div class="article--last">
-        <h4 class="title--block">Dernière article</h4>
         <div class="article">
-          <a class="article__link" href="http://localhost:8888/energize/article-last.php">
-            <img class="preview" src="<?php echo(get_stylesheet_directory_uri());?>/images/en-vs-fr.png" alt="">
-          </a>
+          <div class="container--img">
+            <a class="article__link" href="http://localhost:8888/energize/article-last.php">
+              <img class="preview" src="<?php echo(get_stylesheet_directory_uri());?>/images/en-vs-fr.png" alt="">
+            </a>
+          </div>
           <div class="content--text">
             <h3 class="article__title">
               Qui des français ou des anglais consomment le plus ?
@@ -47,11 +48,11 @@
               </div>
               <div class="popularity">
                 <div class="comment">
-                  <p>13</p>
+                  <p class="number">13</p>
                   <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/comment.svg" alt="">
                 </div>
                 <div class="like">
-                  <p>28</p>
+                  <p class="number">28</p>
                   <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/like.svg" alt="">
                 </div>
               </div>
@@ -83,19 +84,6 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="double">
-          <div class="article">
-            <div class="article__illu"></div>
-            <div class="article__content">
-              <h3 class="title">
-                Que représente l’energie photovoltaïque en France ?
-              </h3>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
           <div class="article">
             <div class="article__illu"></div>
             <div class="article__content">
@@ -131,12 +119,58 @@
               </p>
             </div>
           </div>
-        </div>
-            <div class="show--more">
-              <div class="button">
-                <p class="text">Afficher plus</p>
-              </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
+          </div>
+        </div>
+        <div class="double">
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="article">
+            <div class="article__illu"></div>
+            <div class="article__content">
+              <h3 class="title">
+                Que représente l’energie photovoltaïque en France ?
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+          <div class="show--more">
+            <div class="button">
+              <p class="text">Afficher plus</p>
+            </div>
+          </div>
       </div>
     </div>
 

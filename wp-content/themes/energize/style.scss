@@ -196,24 +196,30 @@ html
               }
             }
           }
-
         }
         .article--last
         {
+          border-top: $color_grey_dark 1px solid;
           border-bottom: $color_grey_dark 1px solid;
-          .title--block
-          {
-            font-size: $textsize_big;
-          }
+          margin-top: 36px; 
+          padding-top: 36px; 
+          padding-bottom: 36px; 
           .article
           {
             display: flex;
             justify-content: space-between;
-            .article__link
+            .container--img
             {
-              .preview
+              width: 1400px;
+              height: 300px;
+              overflow: hidden;
+              margin-right: 16px;
+              .article__link
               {
-                width: 355px;
+                .preview
+                {
+                  width: 100%;
+                }
               }
             }
             .content--text
@@ -240,6 +246,7 @@ html
                   {
                     font-size: $textsize_medium;
                     color: $color_grey_dark;
+                    margin-right: 16px;
                   }
                 }
                 .popularity
@@ -251,12 +258,23 @@ html
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    margin-right: 16px;
+                    .number
+                    {
+                      font-size: $textsize_small;
+                      margin-right: 8px;
+                    }
                   }
                   .like
                   {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    .number
+                    {
+                      margin-right: 8px;
+                      font-size: $textsize_small;
+                    }
                   }
                 }
               }
@@ -273,7 +291,7 @@ html
             justify-content: space-between;
             .article
             {
-              width: 45%;
+              width: 30%;
               .article__illu
               {
                 height: 200px;
@@ -297,12 +315,14 @@ html
         }
         .show--more
         {
+          margin-bottom: 66px;
           .button
           {
             width: 40%;
             height: 40px;
             background-color: $color_yellow;
             margin: auto;
+            margin-top: 36px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -319,21 +339,30 @@ html
   }
   .footer
   {
-    margin-top: 86px;
     margin-bottom: 0;
-    color: $color_white;
-    background-color: $color_grey_dark;
     font-size: $textsize_medium;
-    .menu
+    background-color: $color_grey_light;
+    .content
     {
-      display: flex;
-      justify-content: space-around;
-      width: 60%;
+      background-color: $color_white;
+      width: 90%;
       margin: auto;
-    }
-    .cr
-    {
-      margin-bottom: 0;
+      .menu
+      {
+        width: 90%;
+        margin: auto;
+        border-top: solid 1px $color_grey_dark;
+        display: flex;
+        justify-content: space-around;
+        // padding-top: 86px;\
+      }
+      .cr
+      {
+        width: 90%;
+        margin: auto;
+        background-color: $color_white;
+        margin-bottom: 0;
+      }
     }
   }
 }
