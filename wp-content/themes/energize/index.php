@@ -13,11 +13,11 @@
         </p>
         <div class="answer">
           <div class="choice">
-            <div class="button--yes">
+            <div class="button--yes js-yes">
               <img class="button__icon" src="<?php echo(get_stylesheet_directory_uri());?>/images/check-circle.svg" alt="">
               <p class="button__text">Oui</p>
             </div>
-            <div class="button--no">
+            <div class="button--no js-no">
               <img class="button__icon" src="<?php echo(get_stylesheet_directory_uri());?>/images/x-circle.svg" alt="">
               <p class="button__text">Non</p>
             </div>
@@ -30,7 +30,7 @@
       <div class="article--last">
         <div class="article">
           <div class="container--img">
-            <a class="article__link" href="http://localhost:8888/energize/article-last.php">
+            <a class="article__link" href="<?= get_permalink(get_page_by_title('article')) ?>">
               <img class="preview" src="<?php echo(get_stylesheet_directory_uri());?>/images/en-vs-fr.png" alt="">
             </a>
           </div>
@@ -43,8 +43,8 @@
             </p>
             <div class="article__network">
               <div class="hastag">
-                <p class="text">#Consomation</p>
-                <p class="text">#France</p>
+                <p class="text">#Consommation</p>
+                <p class="text">#energie</p>
               </div>
               <div class="popularity">
                 <div class="comment">

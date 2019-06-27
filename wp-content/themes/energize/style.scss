@@ -153,8 +153,8 @@ html
               {
                 width: 164px;
                 height: 40px;
-                background-color: rgba(254, 211, 48, .20);
-                border: solid 1px $color_yellow;
+                background-color: $color_grey_light;                
+                border: solid 1px $color_grey_dark;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
@@ -162,6 +162,10 @@ html
                 {
                   font-size: $textsize_regular;
                 }
+              }
+              .button--yes:hover, .button--no:hover
+              {
+                cursor: pointer;
               }
               .button--no
               {
@@ -177,6 +181,11 @@ html
                   font-size: $textsize_regular;
                 }
               }
+            }
+            .button--validate:hover
+            {
+              cursor: pointer;
+              color: $color_white;
             }
             .button--validate
             {
@@ -316,6 +325,10 @@ html
         .show--more
         {
           margin-bottom: 66px;
+          .button:hover
+          {
+            cursor: pointer;
+          }
           .button
           {
             width: 40%;
@@ -354,7 +367,6 @@ html
         border-top: solid 1px $color_grey_dark;
         display: flex;
         justify-content: space-around;
-        // padding-top: 86px;\
       }
       .cr
       {
@@ -363,6 +375,13 @@ html
         background-color: $color_white;
         margin-bottom: 0;
       }
+    }
+  }
+  .main--article-last
+  {
+    .content
+    {
+
     }
   }
 }

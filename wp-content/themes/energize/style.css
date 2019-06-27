@@ -82,13 +82,15 @@ html {
           .body .main--home .content .container--main .container--sondage .answer .choice .button--yes {
             width: 164px;
             height: 40px;
-            background-color: rgba(254, 211, 48, 0.2);
-            border: solid 1px #FED330;
+            background-color: #F5F6F8;
+            border: solid 1px #29303B;
             display: flex;
             justify-content: space-around;
             align-items: center; }
             .body .main--home .content .container--main .container--sondage .answer .choice .button--yes .button__text {
               font-size: 2.2rem; }
+          .body .main--home .content .container--main .container--sondage .answer .choice .button--yes:hover, .body .main--home .content .container--main .container--sondage .answer .choice .button--no:hover {
+            cursor: pointer; }
           .body .main--home .content .container--main .container--sondage .answer .choice .button--no {
             width: 164px;
             height: 40px;
@@ -99,6 +101,9 @@ html {
             align-items: center; }
             .body .main--home .content .container--main .container--sondage .answer .choice .button--no .button__text {
               font-size: 2.2rem; }
+        .body .main--home .content .container--main .container--sondage .answer .button--validate:hover {
+          cursor: pointer;
+          color: #fff; }
         .body .main--home .content .container--main .container--sondage .answer .button--validate {
           width: 30%;
           height: 40px;
@@ -181,6 +186,8 @@ html {
                 font-size: 1.8rem; }
         .body .main--home .content .container--main .show--more {
           margin-bottom: 66px; }
+          .body .main--home .content .container--main .show--more .button:hover {
+            cursor: pointer; }
           .body .main--home .content .container--main .show--more .button {
             width: 40%;
             height: 40px;
