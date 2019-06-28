@@ -9,18 +9,18 @@
   <div id="content" class="content">
     
       <section>
-      <h1>Scroll down</h1>
+      <h2>Scroll pour lire ton article</h2>
     </section>
 
     <section class="sticky">
-      <blockquote>"You should totally subscribe to my channel now"<span></span></blockquote>
-      <img id="office" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/office1.png">
-      <img id="building" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/sky.jpg">
-      <div id="box"></div>
+      <blockquote>La consommation énérgétique d'un anglais face à un français.<span></span></blockquote>
+      <img id="office" src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/en_perso.png">
+      <img id="building"  src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/fr_perso.png">
+      <div id="box"><img id="building"  src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/vs.png"></div>
     </section>
 
     <section>
-      <h1>Scroll up</h1>
+      <h2>Scroll up</h2>
     </section>
 
 

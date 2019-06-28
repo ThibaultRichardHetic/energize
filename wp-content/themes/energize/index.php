@@ -68,10 +68,10 @@
             </div>
             <div class="article__content">
               <h3 class="title">
-                Que représente l’energie photovoltaïque en France ?
+              Course a l’énergie verte, elle-est si propre qu’on le dit ?
               </h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Le gouvernement français veut miser sur l'énergie solaire. Mais cette solution est-elle complètement "zéro émission" ?
               </p>
             </div>
           </div>
@@ -81,10 +81,10 @@
             </div>
             <div class="article__content">
               <h3 class="title">
-                Que représente l’energie photovoltaïque en France ?
+              Connaissez-vous l’énergie libre ? 
               </h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              L’énergie libre : une énergie illimitée, gratuite et facile à produire ? Certains pensent qu’elle existe, mais que les industriels nous la cachent… Qu’en est-il vraiment ?
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@
                 Que représente l’energie photovoltaïque en France ?
               </h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                L’énergie solaire est propre, n'émet aucun gaz à effet de serre, est gratuite, inépuisable et disponible partout dans le monde.
               </p>
             </div>
           </div>
@@ -122,10 +122,10 @@
             </div>
             <div class="article__content">
               <h3 class="title">
-                Que représente l’energie photovoltaïque en France ?
+              L’énergie renouvelable dans 10 ans              
               </h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Report de la baisse du nucléaire, énergies renouvelables et réduction des consommations : le gouvernement a publié le détail de la feuille de route énergétique de la France à horizon 2028
               </p>
             </div>
           </div>
@@ -135,10 +135,10 @@
             </div>
             <div class="article__content">
               <h3 class="title">
-                Que représente l’energie photovoltaïque en France ?
+                L’hydrogène, l’eldorado énergetique du futur
               </h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                L'hydrogène est souvent présenté comme un pilier de la transition énergétique mondiale.
               </p>
             </div>
           </div>
