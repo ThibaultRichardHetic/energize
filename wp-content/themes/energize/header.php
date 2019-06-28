@@ -51,9 +51,6 @@
                     <img class="logo" src="<?php echo(get_stylesheet_directory_uri());?>/images/home.svg" alt="">
                   </a>
                   <a class="link" href="">
-                    <p class="text">article</p>
-                  </a>
-                  <a class="link" href="">
                     <p class="text">sondages</p>
                   </a>
                   <a class="link" href="">

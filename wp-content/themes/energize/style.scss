@@ -476,6 +476,26 @@ html
           width: 100px;
         }
       }
+      .section--2
+      {
+        height: 130vh;
+        color: $color_grey_dark;
+        width: 80%;
+        margin: auto;
+        h2
+        {
+          margin-top: 10px;
+          font-size: $textsize_big;
+        }
+        h3
+        {
+          font-size: $textsize_regular;
+        }
+        p
+        {
+          font-size: $textsize_small;
+        }
+      }
     }
   }
 }

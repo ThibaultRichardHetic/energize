@@ -75,7 +75,6 @@ const scene2 = new ScrollMagic.Scene({
   .setTween(tl2)
 		.addTo(controller);
 
-
 function updatePercentage() {
   //percent.innerHTML = (tl.progress() *100 ).toFixed();
   tl.progress();

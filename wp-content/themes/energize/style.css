@@ -288,5 +288,17 @@ html {
     right: 0; }
     .body .main--article-last .content #box img {
       width: 100px; }
+  .body .main--article-last .content .section--2 {
+    height: 130vh;
+    color: #29303B;
+    width: 80%;
+    margin: auto; }
+    .body .main--article-last .content .section--2 h2 {
+      margin-top: 10px;
+      font-size: 3rem; }
+    .body .main--article-last .content .section--2 h3 {
+      font-size: 2.2rem; }
+    .body .main--article-last .content .section--2 p {
+      font-size: 1.4rem; }
 
 /*# sourceMappingURL=style.css.map */
