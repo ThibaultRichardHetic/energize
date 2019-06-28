@@ -58,7 +58,7 @@ tl.from('#office', 1, {x:-200, opacity: 0,ease: Power4.easeInOut}, "=-1");
 tl.from('#building', 1, {x:200, opacity: 0, ease: Power4.easeInOut}, "=-.7");
 
 tl2.from("#box", 1, {opacity: 0, scale: 0});
-tl2.to("#box", .5, {left: "20%", scale: 1.3, borderColor: 'white', borderWidth: 12, boxShadow: '1px 1px 0px 0px rgba(0,0,0,0.09)'})
+tl2.to("#box", .5, {left: "20%", scale: 1.3, borderWidth: 12})
 
 const scene = new ScrollMagic.Scene({
   triggerElement: ".sticky",

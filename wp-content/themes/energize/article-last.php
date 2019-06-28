@@ -16,7 +16,7 @@
       <blockquote>La consommation énérgétique d'un anglais face à un français.<span></span></blockquote>
       <img id="office" src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/en_perso.png">
       <img id="building"  src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/fr_perso.png">
-      <div id="box"><img id="building"  src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/vs.png"></div>
+      <div id="box"><img src="<?php echo(get_stylesheet_directory_uri());?>/images/en_fr/vs.png"></div>
     </section>
 
     <section>

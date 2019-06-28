@@ -62,6 +62,16 @@ html {
           height: 20px; }
   .body .main--home {
     background-color: #F5F6F8; }
+    .body .main--home .link__article {
+      text-decoration: none;
+      color: #29303B;
+      text-transform: none; }
+      .body .main--home .link__article .button--validate {
+        text-decoration: none;
+        text-transform: none; }
+        .body .main--home .link__article .button--validate .button__text {
+          text-transform: none;
+          text-decoration: none; }
     .body .main--home .content {
       width: 90%;
       background-color: #fff;
@@ -270,11 +280,13 @@ html {
     width: 100px;
     height: 100px;
     position: absolute;
-    border: 5px solid lightgray;
+    border: none;
     margin: auto;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0; }
+    .body .main--article-last .content #box img {
+      width: 100px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -121,6 +121,22 @@ html
   .main--home
   {
     background-color: $color_grey_light;
+    .link__article
+    {
+      text-decoration: none;
+      color: $color_grey_dark;
+      text-transform: none;
+      .button--validate
+      {
+      text-decoration: none;
+      text-transform: none;
+        .button__text
+        {
+          text-transform: none;
+          text-decoration: none;
+        }
+      }
+    }
     .content
     {
       width: 90%;
@@ -450,9 +466,15 @@ html
         width: 100px;
         height: 100px;
         position: absolute;
-        border: 5px solid lightgray;
+        // border: 5px solid lightgray;
+        border: none;
         margin: auto;
         top: 0; left: 0; bottom: 0; right: 0;
+
+        img
+        {
+          width: 100px;
+        }
       }
     }
   }

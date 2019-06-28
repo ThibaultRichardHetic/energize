@@ -22,9 +22,11 @@
               <p class="button__text">Non</p>
             </div>
           </div>
-          <div class="button--validate">
-            <p class="button__text">Répondre</p>
-          </div>
+          <a class="link__article" href="<?= get_permalink(get_page_by_title('article')) ?>">
+            <div class="button--validate">
+              <p class="button__text">Répondre</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="article--last">
