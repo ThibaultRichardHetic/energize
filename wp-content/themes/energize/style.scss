@@ -107,6 +107,7 @@ html
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: 15%;
             .logo
             {
               width: 20px;
@@ -335,6 +336,7 @@ html
           .button:hover
           {
             cursor: pointer;
+            color: $color_white;
           }
           .button
           {

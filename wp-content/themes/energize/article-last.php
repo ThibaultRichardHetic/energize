@@ -23,6 +23,9 @@
       <h1>Scroll up</h1>
     </section>
 
+
+    <div class="js-yes"></div>
+    <div class="js-no"></div>
   </div>
 </main>
 

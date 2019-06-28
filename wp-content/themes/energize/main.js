@@ -1,72 +1,51 @@
 
-// let state_yes = 0
-// let state_no = 0
+let state_yes = 0
+let state_no = 0
 
-// const $button_yes = document.querySelector('.js-yes')
-// $button_yes.addEventListener('click', () => 
-// {
-//   console.log('click')
-//   if (state_yes == 1)
-//   {
-//     $button_yes.style.backgroundColor = "#F5F6F8"
-//     $button_yes.style.border = "solid 1px #29303B"
-//     state_yes = 0
-//     return state_yes
-//   }
-//   if (state_yes == 0)
-//   {
-//     console.log('0')
-//     $button_yes.style.backgroundColor = "rgba(254, 211, 48, .20)"
-//     $button_yes.style.border = "solid 1px #FED330"
-//     $button_no.style.backgroundColor = "#F5F6F8"
-//     $button_no.style.border = "solid 1px #29303B"
-//     state_yes = 1
-//     return state_yes
-//   }
-// })
+const $button_yes = document.querySelector('.js-yes')
+$button_yes.addEventListener('click', () => 
+{
+  console.log('click')
+  if (state_yes == 1)
+  {
+    $button_yes.style.backgroundColor = "#F5F6F8"
+    $button_yes.style.border = "solid 1px #29303B"
+    state_yes = 0
+    return state_yes
+  }
+  if (state_yes == 0)
+  {
+    console.log('0')
+    $button_yes.style.backgroundColor = "rgba(254, 211, 48, .20)"
+    $button_yes.style.border = "solid 1px #FED330"
+    $button_no.style.backgroundColor = "#F5F6F8"
+    $button_no.style.border = "solid 1px #29303B"
+    state_yes = 1
+    return state_yes
+  }
+})
 
-// const $button_no = document.querySelector('.js-no')
-// $button_no.addEventListener('click', () => 
-// {
-//   if (state_no == 1)
-//   {
-//     $button_no.style.backgroundColor = "#F5F6F8"
-//     $button_no.style.border = "solid 1px #29303B"
-//     state_no = 0
-//     return state_no
-//   }
-//   if (state_no == 0)
-//   {
-//     $button_no.style.backgroundColor = "rgba(254, 211, 48, .20)"
-//     $button_no.style.border = "solid 1px #FED330"
-//     $button_yes.style.backgroundColor = "#F5F6F8"
-//     $button_yes.style.border = "solid 1px #29303B"
-//     state_no = 1
-//     return state_no
-//   }
-// })
+const $button_no = document.querySelector('.js-no')
+$button_no.addEventListener('click', () => 
+{
+  if (state_no == 1)
+  {
+    $button_no.style.backgroundColor = "#F5F6F8"
+    $button_no.style.border = "solid 1px #29303B"
+    state_no = 0
+    return state_no
+  }
+  if (state_no == 0)
+  {
+    $button_no.style.backgroundColor = "rgba(254, 211, 48, .20)"
+    $button_no.style.border = "solid 1px #FED330"
+    $button_yes.style.backgroundColor = "#F5F6F8"
+    $button_yes.style.border = "solid 1px #29303B"
+    state_no = 1
+    return state_no
+  }
+})
 
-
-
-
-// var tl = new TimelineMax({onUpdate:updatePercentage});
-// const controller = new ScrollMagic.Controller();
-
-// tl.from('blockquote', .5, {x:200, opacity: 0});
-
-// const scene = new ScrollMagic.Scene({
-//   triggerElement: ".sticky",
-//   triggerHook: "onLeave",
-//   duration: "100%"
-// })
-//   .setPin(".sticky")
-//   .setTween(tl)
-//     .addTo(controller);
-
-// function updatePercentage(){
-//   tl.progress()
-//   console.log(tl.progress())
-// }
 
 
 var tl = new TimelineMax({onUpdate:updatePercentage});

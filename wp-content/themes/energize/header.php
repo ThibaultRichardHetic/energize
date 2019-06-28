@@ -19,7 +19,9 @@
           <div class="container--menu">
             <nav class="nav--top">
              <div class="container--logo">
+             <a href="<?= get_permalink() ?>">
               <img class="logo__img" src="<?php echo(get_stylesheet_directory_uri());?>/images/logo.png" alt="">
+             </a>
              </div>
              <div class="container--social">
               <a class="link" href="">
@@ -53,6 +55,9 @@
                   </a>
                   <a class="link" href="">
                     <p class="text">sondages</p>
+                  </a>
+                  <a class="link" href="">
+                    <p class="text">Notre démarche</p>
                   </a>
                 </div>
                 <div class="container--shearch">

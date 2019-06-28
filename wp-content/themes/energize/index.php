@@ -39,7 +39,7 @@
               Qui des français ou des anglais consomment le plus ?
             </h3>
             <p class="article__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto ut nemo libero corporis expedita ratione, earum vitae eos iure, minus rerum dolorem repellendus amet ab cum asperiores, vero molestias?
+              Ce n’est un secret pour personne… les  Français et les Anglais maintiennent une éternelle relation de rivalité et de fraternité « A hate and love story » depuis le Moyen-âge. Mais qu’en est-il face à la problématique énergétique.
             </p>
             <div class="article__network">
               <div class="hastag">

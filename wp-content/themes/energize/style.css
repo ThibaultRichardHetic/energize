@@ -55,7 +55,8 @@ html {
       .body .header .container--menu .nav--bot .content .container--shearch {
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: center;
+        width: 15%; }
         .body .header .container--menu .nav--bot .content .container--shearch .logo {
           width: 20px;
           height: 20px; }
@@ -192,7 +193,8 @@ html {
         .body .main--home .content .container--main .show--more {
           margin-bottom: 66px; }
           .body .main--home .content .container--main .show--more .button:hover {
-            cursor: pointer; }
+            cursor: pointer;
+            color: #fff; }
           .body .main--home .content .container--main .show--more .button {
             width: 40%;
             height: 40px;
